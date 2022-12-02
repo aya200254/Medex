@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+
+navbar
+{
+ position: fixed;
+}
+.bg-light {
+    background-color: #000 !important;
+}
+.navbar-brand
+{
+    font-size: 27px;
+    font-family: "Tahoma";
+}
+.navbar-brand #s1
+{
+    color: red;
+    font-size:35px;
+    padding-left: 2.5px; 
+}
+.navbar-brand img
+{
+    margin-bottom: 10px;
+}
+.nav-link
+{
+    color: #000 ;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.nav-item
+{
+    list-style: none;
+    text-align: center;
+     padding: 17px;
+}
+.nav-link.active, .nav-link:hover
+{
+    color:#4981b3;
+}
+nav
+{
+     box-shadow: 0 .5rem .5rem rgba(0,0,0,.1)
+}
+
+.car
+{
+    padding-top: 20px;
+}
+
+.carousel-caption
+{
+  margin-bottom: 75px;
+  margin-left: 70px;
+ text-align: center;
+ font-family: "Times New Roman";
+
+}
+.bg-custom
+{
+    background-color: rgba(0,0,0,.5);
+    color:white;
+    border-radius: 15px;
+}
+
+.carousel-caption h1
+{
+    font-size:33px;
+    font-family: "Times New Roman";
+}
+.carousel-caption p
+{
+    font-size: 25px;
+}
+.container1 
+{
+   margin: 28px -135px 76px 136px;
+   
+}
+.container2
+{
+  margin: 28px -135px 76px 136px;  
+}
+
+.header
+{
+    text-align: center;
+    margin: 48px;
+    text-transform:  capitalize;
+    font-family: paddana;
+    margin-top: 49px;
+    margin-bottom: -24px;
+}
+
+.card1, .card2 , .card3
+{
+    margin: 95px;
+    
+    
+}
+
+.card1 img , .card2 img , .card3 img 
+{
+   
+    transition: all 1.5s ease;
+     
+}
+.card1 :hover , .card2 :hover , .card3 :hover
+{
+ transform: scale(1.1);
+}
+
+.card img top {
+    margin-top: 20px;
+}
+
+.main {
+    background: #fe9a99;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .main-left {
+    height: 100%;
+    width: 50%;
+  }
+  .main-right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .img-v {
+    height: 30vw;
+    width: 30vw;
+  }
+  
+  .main-right p {
+    font-size: 30px;
+    padding-top: 20px;
+  }
+  
+  .text {
+    margin-left: 18%;
+    padding-top: 32%;
+  }
+  
+  .text span {
+    font-size: 7vw;
+    letter-spacing: 25px;
+    font-weight: bold;
+  }
+  
+  .text p {
+    padding-top: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 25px;
+  }
+  
+  .right-bar {
+    position: absolute;
+    width: 60px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icons {
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .icon-btn {
+    margin-top: 20px;
+    background: white;
+    text-decoration: none;
+    color: grey;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    position: relative;
+  }
+  
+  .icon-btn i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+      
+  }
+  
+  .search {
+    position: absolute;
+    color: white;
+    top: 25px;
+    font-size: 20px;
+  }
+  
+
+/*///////////////////////////////////////// Department */
+.container{
+    margin-top: 5%;
+  font-family: sans-serif;
+    
+
+
+}
+h1{
+   
+    margin-bottom: 20px;
+}
+
+.border{
+    display: block;
+    margin: auto;
+    width:100px;
+    height: 4px;
+    background-color: #4da6ff;
+    margin-bottom: 10px;
+ 
+}
+.span{
+    text-align: center;
+    color:  #aaaaa1;
+     margin: 50px;
+     font-family: sans-serif;
+   
+   
+}
+
+
+
+.col-md-4{
+     margin-bottom: 20px;
+}
+
+
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1.5s ease;
+    
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
+
+.card-text{
+    color:  #aaaaa1;
+}
+
+a:link {
+  color: red;
+  font-family: sans-serif;
+}
+
+/* visited link */
+
+/* mouse over link */
+a:hover {
+  
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+/*  Book A Service Section.............................................. */
+ 
+.Containerx
+{
+
+ height: 300px;
+ background-color: purple;
+ margin-bottom: 90px;
+ margin-top: 80px;
+ 
+}
+#bk1 h3
+{
+  float: left;
+ width:700px;
+ padding-top: 70px;
+ padding-left: 60px;
+ font-size: 70px;
+ font-family: "Poppins";
+ color: #FFF;
+ 
+}
+.spn span
+{
+ float: left;
+ padding-left:  70px;
+ color:#FFF;
+ font-size: 20px;
+}
+
+.bttn button
+{
+float: right;
+}
+
+.bttn
+{
+ margin-right: 300px;
+ margin-bottom: 200px;
+ padding: 50px;
+}
+.spn
+{
+ width: 500px;
+}
+
+        /*  ====    Events Part      ====  */
+
+
+.feature-thumb {
+    border: 1px solid #f0f0f0;
+    padding: 5em 3em;
+  }
+
+  .feature-thumb span {
+    background: #3f51b5;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .feature-thumb h3 {
+    margin: 10px 0;
+  }
+
+
+/*  .....................Location Part ........................ */
+
+.location h3
+{
+ text-align: center;
+ font-size: 40px;
+ font-family: "Times New roman";
+ margin-top: 150px;
+}
+ iframe
+ {
+  
+  margin-top: 50px;
+ }
+   
+/*  ==================  Start Doctors ===================== */ 
+Doctors
+
+.doctors {
+  background: #fff;
+}
+
+.doctors .member {
+  position: relative;
+  box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.doctors .member .pic {
+  overflow: hidden;
+  width: 180px;
+  border-radius: 50%;
+}
+
+.doctors .member .pic img {
+  transition: ease-in-out 0.3s;
+}
+
+.doctors .member:hover img {
+  transform: scale(1.1);
+}
+
+.doctors .member .member-info {
+  padding-left: 30px;
+}
+
+.doctors .member h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #2c4964;
+}
+
+.doctors .member span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+}
+
+.doctors .member span::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #b2c8dd;
+  bottom: 0;
+  left: 0;
+}
+
+.doctors .member p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+
+.doctors .member .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.doctors .member .social a {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  width: 32px;
+  height: 32px;
+  background: #a0bcd5;
+}
+
+.doctors .member .social a i {
+  color: #fff;
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+.doctors .member .social a:hover {
+  background: #1977cc;
+}
+
+.doctors .member .social a + a {
+  margin-left: 8px;
+}
+
+
+
+
+
+/*  .....................Contact Us Part ........................ */
+
+.ceo{
+    float: left;
+    box-shadow: -15px -15px 15px rgba(225, 225, 225, 0.2),
+                15px 15px 15px rgba(0,0,0,0.1);
+    /* border-radius: 25%; */
+    width: 230px;
+    text-align: center;
+    margin-left: 130px;
+    padding:10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 70px;
+    height: 330px;
+}
+.cto{
+    float: left;
+    box-shadow: -15px -15px 15px rgba(225, 225, 225, 0.2),
+                15px 15px 15px rgba(0,0,0,0.1);
+    /* border-radius: 25%; */
+    width: 230px;
+    text-align: center;
+    margin-left: 130px;
+    padding:10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 70px;
+    height: 330px;
+
+}
+.coo{
+    float: left;
+    box-shadow: -15px -15px 15px rgba(225, 225, 225, 0.2),
+                15px 15px 15px rgba(0,0,0,0.1);
+    /* border-radius: 25%; */
+    width: 230px;
+    text-align: center;
+    margin-left: 130px;
+    padding:10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 70px;
+    height: 330px;
+}
+#d{
+    border-radius: 50%;
+    width: 100px;
+    margin-top: 30px;
+}
+#h{
+    border-radius: 50%;
+    width: 100px;
+    margin-top: 30px;
+}
+#m{
+    border-radius: 50%;
+    width: 100px;
+    margin-top: 30px;
+}
+/*===========================================================================*/
+/*---------------------------------------
+      CONTACT             
+  -----------------------------------------*/
+
+  #contact {
+    background: #7d7e7c;
+    margin-top: 50px;;
+  }
+
+  #contact h2 {
+    color: #ffffff;
+  }
+
+  #contact .section-title {
+    padding-bottom: 20px;
+  }
+
+  #contact h2 > small,
+  #contact p,
+  #contact a {
+    color: #f9f9f9;
+  }
+
+  #contact-form {
+    padding: 1em 0;
+  }
+
+  #contact-form .col-md-12,
+  #contact-form .col-md-4 {
+    padding-left: 0;
+  }
+
+  #contact-form .form-control {
+    border: 0;
+    border-radius: 5px;
+    box-shadow: none;
+    margin: 10px 0;
+  }
+
+  #contact-form input {
+    height: 50px;
+  }
+
+  #contact-form input[type='submit'] {
+    border-radius: 50px;
+    border: 1px solid transparent;
+  }
+
+  #contact-form input[type='submit']:hover {
+    background: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+  }
+  
+
+
+
+
+/*=========================================================================*/
+.if{
+
+    float: left;
+    width: 22%;
+    padding-left: 35px;
+    text-align:left;
+    margin-top: 100px;
+    height: 330px;
+}
+/*=========================================================================*/
+.clear{
+    clear: both;
+}
+.footer{
+    background-color:#252424;
+    border-top: 1px solid  ;
+    text-align: center;
+    color:white;
+  
+}
+
+
+
+.footer a
+{
+ color: #7D7E7C;
+}
+
+
+
+
+
+
+

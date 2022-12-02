@@ -1,0 +1,184 @@
+body
+ {
+  padding: 0%;
+  margin: 0%;
+  background: url(cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  font-family: consolas;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .gradient
+ {
+  width: 330px;
+  height: 430px;
+  background: linear-gradient(235deg,#89ff00,#060c21,#00bcd4);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: blur(40px);
+  
+ }
+ 
+ .login
+ {
+  width: 520px;
+  height: 620px;
+  background: #060c21;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+ }
+ 
+
+ 
+ .avatar
+ {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translate(-50% , -10%)
+ }
+ 
+ .login h1
+ {
+  margin: 0%;
+  padding: 0 0 20px ;
+  text-align: center;
+  
+ }
+ 
+ .login p
+ {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+ }
+ 
+ .login input , a
+ {
+  width: 100%;
+  margin-bottom: 20px;
+ }
+ 
+ .login input[type="text"] , input[type="password"]
+ {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  font-weight: 18px;
+  outline: none;
+  height: 40px;
+ color: #fff;
+ font-weight: 18px;
+ 
+ }
+ 
+ 
+ .login a
+ {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 0px;
+  color: #2196f3;
+  text-align: center;
+  letter-spacing: 2px;
+  overflow: hidden;
+  font-size: 23px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0,2s;
+  text-decoration: none;
+  
+ }
+ 
+ .login a:hover
+ {
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 10px #2196f3, 0 0 10px #2196f3;
+  transition-delay: 1s;
+ }
+ 
+ .login a span
+ {
+  position: absolute;
+  display: block;
+ }
+ 
+ .login a span:nth-child(1)
+ {
+  top: 0%;
+  left:-100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#2196f3);
+ }
+ 
+.login a:hover span:nth-child(1)
+{
+   left: 100%;
+   transition: 1s;
+}
+ 
+ .login a span:nth-child(3)
+ {
+  bottom: 0%;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,#2196f3);
+ }
+ 
+ .login a:hover span:nth-child(3)
+ {
+   right:100%;
+   transition: 1s;
+   transition-delay: .5s;
+ }
+ 
+ .login a span:nth-child(2)
+ {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#2196f3);
+ }
+ 
+.login a:hover span:nth-child(2)
+{
+   top: 100%;
+   transition: 1s;
+   transition-delay: 0.25s;
+}
+ 
+ .login a span:nth-child(4)
+ {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#2196f3);
+ }
+ 
+.login a:hover span:nth-child(4)
+{
+   bottom: 100%;
+   transition: 1s;
+   transition-delay: 0.75s;
+}
